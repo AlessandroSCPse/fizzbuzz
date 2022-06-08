@@ -9,6 +9,25 @@
 
 // Prima di fare il ciclo che riempie il container
 // lo seleziono cosi ce l'ho a disposizione nel ciclo
+
+// -----------------
+
+// Esempio con selezione del container nel ciclo:
+// 1- Container vuoto
+// 	lo seleziona -> aggiunge il box 1
+// 2- Container ha 1 box
+// 	lo seleziona -> aggiunge il numero 2
+// 3- Container ha 2
+// 	lo seleziona -> aggiunge il numero 3
+
+// ----------------
+
+// // Esempio con selezione del container fuori dal ciclo:
+// 1- Container è vuoto
+// 	aggiungi il box 1 al container
+// 2- Container ha 1 box
+// 	aggiungi il box 2 al container
+
 const boxesContainer = document.querySelector('.boxes-container');
 
 // Scorro i numeri da 1 a 100
